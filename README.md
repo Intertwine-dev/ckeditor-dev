@@ -2,13 +2,21 @@
 
 [![devDependencies Status](https://david-dm.org/ckeditor/ckeditor-dev/dev-status.svg)](https://david-dm.org/ckeditor/ckeditor-dev?type=dev)
 
-This repository contains the development version of CKEditor 4.
+This repository contains the development version of CKEditor 4 modified to fit Intertwine Editor needs.
 
 **Attention:** The code in this repository should be used locally and for
 development purposes only. We do not recommend using it in production environment
 because the user experience will be very limited. For that purpose, you should
 either build the editor (see below) or use an official release available on the
 [CKEditor website](https://ckeditor.com/ckeditor-4/).
+
+## Intertwine Edits
+```
+	
+	config.loadSkinCss = false // Avoids skin async loading
+	config.langJSON = {} // The whole plugin and common translation 
+
+```
 
 ## Code Installation
 
